@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tombol-gelap {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#tombol-gelap:hover {
+    background-color: #e2e8f0;
+}
+
+main {
+    padding-top: 30px;
+}
+
+.kartu {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 40px 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.tata-letak-tengah {
+    text-align: center;
+}
+
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+#main-title {
+    color: #0f766e;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    background-color: #ccfbf1;
+    color: #115e59;
+    font-weight: 600;
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.wadah-tautan {
+    margin-top: 20px;
+}
+
+.btn-utama {
+    display: inline-block;
+    background-color: #0f766e;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-utama:hover {
+    background-color: #115e59;
+    transform: translateY(-2px);
+}
+
+.daftar-keahlian {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.daftar-keahlian li {
+    padding: 12px 0;
+    border-bottom: 1px dashed #e2e8f0;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    padding: 20px 0 40px 0;
+}
+
+.mode-gelap {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
+
+.mode-gelap header,
+.mode-gelap .kartu {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+.mode-gelap #tombol-gelap {
+    background-color: #334155;
+    color: white;
+}
+
+.mode-gelap .foto-profil {
+    border-color: #334155;
+}
